@@ -188,7 +188,6 @@ p {
       justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 2%;
 }
 
 .section-c {
@@ -289,6 +288,7 @@ ul {
   }
   .centerimg {
     padding: 20px;
+    width: 250px;
   }
 }
 

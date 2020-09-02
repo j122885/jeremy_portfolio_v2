@@ -28,7 +28,7 @@ nav li a {
 }
 
 .logo {
-    align-content: center;
+   align-content: center;
     max-width: 90px;
 
 }
@@ -196,16 +196,16 @@ p {
     }
 
 }
-.centerimg{
-  //  padding-top: 3%;
+.centerimg {
+   
     width: 10%;
     display: flex;
     justify-content: space-between;
     justify-content: space-around; //space around flex elements
     margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 2%;
+   margin-right: auto;
 }
+
 
 .section-c {
     padding-top: 2%;
@@ -213,11 +213,7 @@ p {
     background-color: white;
     height: 60vh;
 
-    //position: absolute;
-    //left: 50%;
-    //top:210%;
-    //transform: translate(-50%, -50%);
-    //border-radius: 10px;
+   
 
 }
 
@@ -301,6 +297,8 @@ ul {
     }
     .centerimg{
         padding: 20px;
+        width: 250px;
+
     
     }
     @media only screen and (max-width: 374px) {
