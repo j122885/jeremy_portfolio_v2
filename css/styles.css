@@ -66,13 +66,53 @@ h1 {
   color: #1D48C0;
 }
 
+@-webkit-keyframes typing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25ch;
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25ch;
+  }
+}
+
+@-webkit-keyframes blink {
+  0%, 100% {
+    border-right: 4px solid transparent;
+  }
+  50% {
+    border-right: 4px solid black;
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    border-right: 4px solid transparent;
+  }
+  50% {
+    border-right: 4px solid black;
+  }
+}
+
 #intro-subtext {
   font-family: 'Recursive', sans-serif;
   font-size: 4rem;
+  display: block;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
-  padding-top: 3%;
+  padding-top: 5%;
   width: 10%;
   display: block;
   margin-left: auto;

@@ -68,16 +68,39 @@ h1 {
     font-family: 'Recursive', sans-serif;
     padding-top: 15%;
     color: #1D48C0;
+   
+    
 }
-
+@keyframes typing {
+    0% { width:0% }
+    100% { width:25ch }
+  }
+  @keyframes blink {
+    0%,100% {
+      border-right:4px solid transparent;
+    }
+    50% {
+      border-right:4px solid black;
+    }
+  }
+  
 #intro-subtext {
     font-family: 'Recursive', sans-serif;
     font-size: 4rem;
-
+    //white-space:nowrap;
+   // overflow:hidden;
+    //animation:typing 4s steps(30,end) forwards, blink 1s infinite;
+   // padding-top: 3%;
+    //width: 10%;
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+   // padding-bottom: 2%;
 }
 
 .center {
-    padding-top: 3%;
+    padding-top: 5%;
     width: 10%;
     display: block;
     margin-left: auto;
