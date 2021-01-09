@@ -252,8 +252,8 @@ h1 {
   overflow: hidden;
   -webkit-animation: typing2 1s steps(18) forwards, blink2 1s infinite;
           animation: typing2 1s steps(18) forwards, blink2 1s infinite;
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
 }
 
 .center {
