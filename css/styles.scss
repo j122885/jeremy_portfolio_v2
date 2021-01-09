@@ -409,12 +409,109 @@ footer{
   margin: 0;
   background-color: #1D48C0;
 }
-@media only screen and (min-width: 2000px) {
+@media only screen and (max-height: 300px) {
     #nav{
         display: none;
     }
+    .container {
+       // flex-direction: column;
+        width: 50%;
+    }
     .section-a{
-        height: 120vh;
+        max-height: 300vh;
+    }
+    .section-b{
+        height: 200vh;
+    }
+    .section-c{
+        height: 300vh;
+    }
+    .section-d{
+        height: 350vh;
+    }
+
+}
+@media only screen and (max-height: 400px) {
+    #nav{
+        display: none;
+    }
+    .container {
+       // flex-direction: column;
+        width: 50%;
+    }
+    .section-a{
+        max-height: 300vh;
+    }
+    .section-b{
+        height:100vh;
+    }
+    .section-c{
+        height: 150vh;
+    }
+    .section-d{
+        height: 400vh;
+    }
+    @media only screen and (max-height: 500px) {
+        #nav{
+            display: none;
+        }
+        .container {
+           // flex-direction: column;
+            width: 50%;
+        }
+        .section-a{
+            height: 10000vh;
+        }
+        .section-b{
+            height:2000vh;
+        }
+        .section-c{
+            height: 150vh;
+        }
+        .section-d{
+            height: 600vh;
+        }
+}
+@media only screen and (max-height: 600px) {
+    #nav{
+        display: none;
+    }
+    .container {
+       // flex-direction: column;
+        width: 50%;
+    }
+    .section-a{
+        max-height: 300vh;
+    }
+    .section-b{
+        height:150vh;
+    }
+    .section-c{
+        height: 150vh;
+    }
+    .section-d{
+        height: 280vh;
+    }
+}
+@media only screen and (max-height: 700px) {
+    #nav{
+        display: none;
+    }
+    .container {
+       // flex-direction: column;
+        width: 50%;
+    }
+    .section-a{
+        max-height: 300vh;
+    }
+    .section-b{
+        height: 800vh;
+    }
+    .section-c{
+        height: 150vh;
+    }
+    .section-d{
+        max-height: 300vh;
     }
 }
 
@@ -529,6 +626,6 @@ footer{
             height: 300vh;
         }
         
-
+    }
     }
 }
