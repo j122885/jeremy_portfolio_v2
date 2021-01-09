@@ -446,6 +446,15 @@ footer {
   background-color: #1D48C0;
 }
 
+@media only screen and (min-width: 2000px) {
+  #nav {
+    display: none;
+  }
+  .section-a {
+    height: 120vh;
+  }
+}
+
 @media only screen and (max-width: 1600px) {
   #nav {
     display: none;
