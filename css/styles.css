@@ -444,7 +444,7 @@ footer {
   background-color: #1D48C0;
 }
 
-@media only screen and (min-width: 1080px) and (max-height: 776px) and (min-height: 200px) and (orientation: landscape) {
+@media only screen and (min-width: 500px) and (max-height: 776px) and (min-height: 200px) and (orientation: landscape) {
   #nav {
     display: none;
   }
