@@ -409,6 +409,30 @@ footer{
  // margin: 0;
   background-color: #1D48C0;
 }
+@media only screen and (min-width: 1080px) and (max-height: 776px) and (min-height: 200px) and (orientation: landscape){//for lg wing
+    #nav{
+        display: none;
+    }
+    body{
+        padding-top: 0;
+    }
+    .section-a{
+        max-height: 300vh;
+    }
+    .section-b{
+        height: 200vh;
+    }
+    .section-c{
+        height: 150vh;
+    }
+    .section-d{
+        height: 400vh;
+    }
+    footer{
+        height: 20%;
+    }
+}
+
 @media only screen and (max-width: 1600px) and (orientation: portrait)  and (min-width: 760px){//for ipad
     #nav{
         display: none;
