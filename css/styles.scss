@@ -1,5 +1,6 @@
 html,
 body {
+   padding-top: 8% ;
     scroll-behavior: smooth;
     height: 100%;
     z-index: 1;
@@ -24,13 +25,16 @@ nav li a {
     font-family: 'Recursive', sans-serif;
     font-size: 140%;
     color: #1D48C0;
-    //position: fixed;
 }
 
 .logo {
-   align-content: center;
+    align-content: center;
     max-width: 90px;
-
+    filter: drop-shadow(2px 4px 8px #585858);
+}
+.linkedinlogo{
+    align-content: center;
+    max-width: 90px; 
 }
 
 .right-space {
@@ -51,56 +55,157 @@ span {
 }
 
 .section-a {
-    height: 100vh;
+    max-height: 100vh;
+    max-width: 100%;
+   box-sizing: border-box;
 
 }
-.section-a, .section-b, .section-c, .section-d{
-   max-width: 100vw;
+
+.section-a,
+.section-b,
+.section-c,
+.section-d {
+    max-width: 100vw;
 }
 
 h1 {
+    justify-items: center;
     text-align: center;
-
+   
 }
 
 #intro {
-    font-size: 7rem;
+    box-sizing: border-box;
+        font-size: 7rem;
     font-family: 'Recursive', sans-serif;
-    padding-top: 15%;
-    margin-bottom:0;
-    color: #1D48C0;
    
-    
+    color: #1D48C0;
+    //center element start
+    width: 10%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    //center element end
+
 }
-@keyframes typing {
-    0% { width:0% }
-    100% { width:25ch }
-  }
-  @keyframes blink {
-    0%,100% {
-      border-right:4px solid transparent;
+@keyframes introtyping {
+    0% {
+        width: 0%;
     }
+
+    100% {
+        width: 15ch
+    }
+}
+
+@keyframes introblink {
+
+    0%,
+    100% {
+        border-right: 4px solid transparent;
+    }
+
     50% {
-      border-right:5px solid black;
+    
+    border-right: 5px solid #1D48C0 ;
     }
-  }
-  
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 25ch;
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-right: 4px solid transparent;
+    }
+
+    50% {
+        border-right: 5px solid black;
+    }
+}
+
+@keyframes typing2 {
+
+    0% {
+        width: 0%;
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 15ch;
+        opacity: 1;
+    }
+}
+
+@keyframes blink2 {
+
+    0%,
+    100% {
+        border-right: 5px solid transparent;
+    }
+
+    50% {
+        border-right: 5px solid black;
+    }
+}
+
 #intro-subtext {
     font-family: 'Recursive', sans-serif;
     font-size: 4rem;
-   //animation snipet start
-    white-space:nowrap;
-    overflow:hidden;
-    animation:typing 2s steps(31) forwards, blink 1s infinite;
-    //animation snipet end
-    
     //center element start
-    width: 100%;
+    //width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     //center element end
 }
+.intro-animation{
+    //animation snipet start
+    white-space: nowrap;
+    overflow: hidden;
+    animation: introtyping 1s steps(15) forwards, introblink 1s 1.01;
+    //animation snipet end
+}
+.first-animation{
+    opacity: 0;
+     //animation snipet start
+     white-space: nowrap;
+     overflow: hidden;
+     animation: typing 1s steps(31) forwards, blink 1s 2;
+     animation-delay: 1s;
+
+     //animation snipet end
+}
+.second-animation{
+    opacity: 0;
+    //animation snipet start
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing2 1s steps(18) forwards, blink2 1s infinite;
+    animation-delay: 2.5s;
+    //animation snipet end
+}
+
+
 
 .center {
     padding-top: 5%;
@@ -109,6 +214,8 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2%;
+    filter: drop-shadow(2px 4px 8px #585858);
+
 }
 
 .center2 {
@@ -143,6 +250,8 @@ figure {
 
 h2 {
     text-align: center;
+    word-wrap: wrap;
+
     font-family: 'Recursive', sans-serif;
     font-size: 4rem;
 }
@@ -159,7 +268,7 @@ h3 {
 }
 
 #synopsis {
-    
+
     text-align: left;
     color: #1D48C0;
     //max-width: 10ch;
@@ -185,11 +294,14 @@ p {
 .project {
     width: 100%;
     padding: 10px;
+    filter: drop-shadow(2px 4px 8px #585858);
+
 }
 
 .content {
     background-color: white;
-    padding: 1px;
+   // padding: 1px;
+    padding-bottom: 1px;
     min-height: 300px;
 }
 
@@ -222,14 +334,17 @@ p {
     }
 
 }
+
 .centerimg {
-   
+
     width: 10%;
     display: flex;
     justify-content: space-between;
     justify-content: space-around; //space around flex elements
     margin-left: auto;
-   margin-right: auto;
+    margin-right: auto;
+    //filter: drop-shadow(2px 4px 8px #585858);
+
 }
 
 
@@ -239,7 +354,7 @@ p {
     background-color: white;
     height: 60vh;
 
-   
+
 
 }
 
@@ -281,22 +396,36 @@ ul {
     padding: 0;
     padding-left: 6%;
 }
-.contact-sub{
+
+.contact-sub {
     text-align: center;
 }
-@media only screen and (max-width: 775px) {
-    #nav {
+footer{
+    display: none;
+  text-align: center;
+  height: 5%;
+  //padding: 1%;
+  padding: 0; 
+  margin: 0;
+  background-color: #1D48C0;
+}
+@media only screen and (max-width: 1600px) {
+    #nav{
         display: none;
     }
+}
+@media only screen and (max-width: 775px) {
+   
 
     #intro {
-        font-size: 4rem;
+        font-size: 2.6rem;
     }
 
-    #intro-subtext,
+    #intro-subtext, #intro
     h2 {
-        font-size: 3rem;
-    text-overflow: wrap;    }
+        font-size: 1.5rem;
+        text-overflow: wrap;
+    }
 
     .center {
         width: 50%;
@@ -305,48 +434,92 @@ ul {
     .container {
         flex-direction: column;
     }
-    .section-b{
+
+    .section-b {
         height: 100vh;
     }
-    .section-c{
+
+    .section-c {
         flex-direction: column;
         height: 100vh;
 
 
     }
-    .section-d{
-        height: 185vh;
+
+    .section-d {
+        height: 180vh;
     }
-    .column-control{
+
+    .column-control {
         flex-direction: column;
 
     }
-    .centerimg{
+
+    .centerimg {
         padding: 20px;
         width: 250px;
 
-    
+
     }
-    @media only screen and (max-width: 374px) {
-        #intro-subtext
-         {
-           //  text-emphasis: bold;
+
+    @media only screen and (max-width: 375px) {
+        #intro {
+            font-size: 2.4rem;
+        }
+        #intro-subtext {
+
+            font-size: 1.5rem;
+        }
+        .center {
             
-            font-size: 1.3rem;
+            padding-top: 20%;
+
+           // width: 60%;
         }
-        .section-a{
-            height: 100vh;
+        .content{
+            min-height: 0px;
+            padding-bottom: 0px;
+
         }
-        .section-b{
+        .section-a {
             height: 120vh;
         }
-        .section-c{
+
+        .section-b {
+            height: 100vh;
+        }
+
+        .section-c {
             flex-direction: column;
             height: 110vh;
         }
-        .section-d{
-            height: 400px;
+        .section-d {
+            height: 200vh;
         }
+        
     }
 
+    @media only screen and (max-width: 321px) {
+        #intro{
+            font-size: 2rem;
+        }
+        #intro-subtext{
+            font-size: 1.3rem;
+        }
+        
+        .center{
+            padding-top: 50%;
+        }
+        .content{
+            min-height: 0px;
+        }
+        .section-c{
+            height: 140vh;
+        }
+        .section-d{
+            height: 300vh;
+        }
+        
+
+    }
 }
