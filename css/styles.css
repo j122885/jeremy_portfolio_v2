@@ -390,7 +390,7 @@ p {
 .section-d {
   padding-top: 2%;
   background-color: #D9D9D9;
-  height: 105vh;
+  height: 110vh;
   padding-bottom: 2%;
 }
 
@@ -528,8 +528,8 @@ footer {
   #intro {
     font-size: 2.6rem;
   }
-  #intro-subtext, #intro
-h2 {
+  #intro-subtext
+ {
     font-size: 1.5rem;
     text-overflow: wrap;
   }
@@ -553,7 +553,7 @@ h2 {
     height: 100vh;
   }
   .section-d {
-    height: 190vh;
+    height: 180vh;
   }
   .column-control {
     -webkit-box-orient: vertical;
