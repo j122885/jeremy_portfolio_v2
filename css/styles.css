@@ -452,8 +452,8 @@ footer {
     padding-top: 0;
   }
   .section-a {
-    height: 300vh;
-    max-height: 300vh;
+    height: 100vh;
+    max-height: 100vh;
   }
   .section-b {
     height: 200vh;
