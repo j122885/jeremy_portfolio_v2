@@ -526,7 +526,7 @@ footer {
     display: none;
   }
   #intro {
-    font-size: 2.6rem;
+    font-size: 4rem;
   }
   #intro-subtext
  {
@@ -553,7 +553,7 @@ footer {
     height: 100vh;
   }
   .section-d {
-    height: 180vh;
+    height: 160vh;
   }
   .column-control {
     -webkit-box-orient: vertical;
