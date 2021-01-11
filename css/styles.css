@@ -453,6 +453,7 @@ footer {
   }
   .section-a {
     height: 300vh;
+    max-height: 300vh;
   }
   .section-b {
     height: 200vh;
