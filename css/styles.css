@@ -527,6 +527,7 @@ footer {
   }
   #intro {
     font-size: 4rem;
+    text-overflow: wrap;
   }
   #intro-subtext
  {
