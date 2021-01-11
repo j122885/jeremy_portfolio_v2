@@ -417,18 +417,19 @@ footer{
     body{
         padding-top: 0;
     }
-    .section-a{
-        max-height: 300vh;
-    }
-    .section-b{
-        height: 200vh;
-    }
-    .section-c{
+    .section-a {
         height: 150vh;
-    }
-    .section-d{
-        height: 400vh;
-    }
+        max-height: 150vh;
+      }
+      .section-b {
+        height: 150vh;
+      }
+      .section-c {
+        height: 150vh;
+      }
+      .section-d {
+        height: 260vh;
+      }
     footer{
         height: 20%;
     }
@@ -492,8 +493,7 @@ footer{
         font-size: 2.6rem;
     }
 
-    #intro-subtext, #intro
-    h2 {
+    #intro-subtext {
         font-size: 1.5rem;
         text-overflow: wrap;
     }
@@ -518,7 +518,7 @@ footer{
     }
 
     .section-d {
-        height: 190vh;
+        height: 150vh;
     }
 
     .column-control {
