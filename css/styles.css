@@ -57,7 +57,7 @@ span {
 }
 
 .section-a {
-  height: 100vh;
+  max-height: 100vh;
 }
 
 .section-a,
