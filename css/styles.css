@@ -58,9 +58,6 @@ span {
 
 .section-a {
   height: 100vh;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .section-a,
