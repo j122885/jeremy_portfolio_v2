@@ -587,7 +587,8 @@ footer {
   #intro-subtext {
     font-size: 3rem;
   }
-  body, html {
+  body,
+  html {
     padding-top: 0;
   }
   .center {

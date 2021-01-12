@@ -1,11 +1,6 @@
-html {
-   // min-width: 300px;
-   // min-height: 300px;
-  //position: relative;
-}  
 html,
 body {
-   padding-top: 8% ;
+    padding-top: 8%;
     scroll-behavior: smooth;
     height: 100%;
     z-index: 1;
@@ -37,9 +32,10 @@ nav li a {
     max-width: 90px;
     filter: drop-shadow(2px 4px 8px #585858);
 }
-.linkedinlogo{
+
+.linkedinlogo {
     align-content: center;
-    max-width: 90px; 
+    max-width: 90px;
 }
 
 .right-space {
@@ -63,7 +59,7 @@ span {
     max-height: 100vh;
     height: 100vh;
     width: 100%;
-   
+
 
 }
 
@@ -77,14 +73,14 @@ span {
 h1 {
     justify-items: center;
     text-align: center;
-   
+
 }
 
 #intro {
     box-sizing: border-box;
-        font-size: 7rem;
+    font-size: 7rem;
     font-family: 'Recursive', sans-serif;
-   
+
     color: #1D48C0;
     //center element start
     width: 10%;
@@ -94,6 +90,7 @@ h1 {
     //center element end
 
 }
+
 @keyframes introtyping {
     0% {
         width: 0%;
@@ -112,8 +109,8 @@ h1 {
     }
 
     50% {
-    
-    border-right: 5px solid #1D48C0 ;
+
+        border-right: 5px solid #1D48C0;
     }
 }
 
@@ -178,30 +175,31 @@ h1 {
     font-family: 'Recursive', sans-serif;
     font-size: 4rem;
     //center element start
-    //width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     //center element end
 }
-.intro-animation{
+
+.intro-animation {
     //animation snipet start
     white-space: nowrap;
     overflow: hidden;
     animation: introtyping 1.2s steps(15) forwards, introblink 1s 1.9;
     //animation snipet end
 }
-.first-animation{
-    opacity: 0;
-     //animation snipet start
-     white-space: nowrap;
-     overflow: hidden;
-     animation: typing 1s steps(31) forwards, blink 1s 2;
-     animation-delay: 1.4s;
 
-     //animation snipet end
+.first-animation {
+    opacity: 0;
+    //animation snipet start
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1s steps(31) forwards, blink 1s 2;
+    animation-delay: 1.4s;
+    //animation snipet end
 }
-.second-animation{
+
+.second-animation {
     opacity: 0;
     //animation snipet start
     white-space: nowrap;
@@ -240,7 +238,6 @@ h1 {
     padding-bottom: 2%;
     height: 60vh;
     background-color: #F1F1F1;
-    // height: 100vh;
 
 }
 
@@ -268,7 +265,6 @@ h3 {
     max-width: 80ch;
 
     word-wrap: break-word;
-    // font-size: 2.5rem;
 
 
 }
@@ -277,7 +273,6 @@ h3 {
 
     text-align: left;
     color: #1D48C0;
-    //max-width: 10ch;
 
 
 }
@@ -300,14 +295,14 @@ p {
 .project {
     width: 100%;
     padding: 10px;
-   flex: 1;
+    flex: 1;
     filter: drop-shadow(2px 4px 8px #585858);
 
 }
 
 .content {
     background-color: white;
-   // padding: 1px;
+    // padding: 1px;
     padding-bottom: 1px;
     min-height: 300px;
 }
@@ -407,48 +402,58 @@ ul {
 .contact-sub {
     text-align: center;
 }
-footer{
-   // display: none;
-  text-align: center;
-  height: 10%;
-  padding: 1%;
-  //padding: 0; 
- // margin: 0;
-  background-color: #1D48C0;
+
+footer {
+    // display: none;
+    text-align: center;
+    height: 10%;
+    padding: 1%;
+    background-color: #1D48C0;
 }
 
 
-@media only screen and (min-width: 500px) and (max-height: 776px) and (min-height: 200px) and (orientation: landscape){//for lg wing
-    #nav{
+@media only screen and (min-width: 500px) and (max-height: 776px) and (min-height: 200px) and (orientation: landscape) {
+
+    //for lg wing
+    #nav {
         display: none;
     }
-    body{
+
+    body {
         padding-top: 0;
     }
+
     .section-a {
         height: 150vh;
         max-height: 150vh;
-      }
-      .section-b {
+    }
+
+    .section-b {
         height: 120vh;
-      }
-      .section-c {
+    }
+
+    .section-c {
         height: 150vh;
-      }
-      .section-d {
+    }
+
+    .section-d {
         height: 260vh;
-      }
-    footer{
+    }
+
+    footer {
         height: 20%;
     }
 }
-@media only screen and (min-width: 1600px) and (max-height: 800px) and (orientation: landscape){
-    .section-a{
+
+@media only screen and (min-width: 1600px) and (max-height: 800px) and (orientation: landscape) {
+    .section-a {
         height: 100vh;
     }
-    .section-b{
+
+    .section-b {
         height: 90vh;
     }
+
     .section-c {
         max-height: 80vh;
     }
@@ -458,14 +463,18 @@ footer{
     }
 
 }
-@media only screen and (min-width: 1600px) and (max-height: 500px) and (orientation: landscape){
-    .section-a{
+
+@media only screen and (min-width: 1600px) and (max-height: 500px) and (orientation: landscape) {
+    .section-a {
         height: 250vh;
-        max-height: 300vh;;
+        max-height: 300vh;
+        ;
     }
-    .section-b{
+
+    .section-b {
         height: 150vh;
     }
+
     .section-c {
         max-height: 100vh;
     }
@@ -475,14 +484,18 @@ footer{
     }
 
 }
-@media only screen and (min-width: 1600px) and (max-height: 350px) and (orientation: landscape){
-    .section-a{
+
+@media only screen and (min-width: 1600px) and (max-height: 350px) and (orientation: landscape) {
+    .section-a {
         height: 500vh;
-        max-height: 800vh;;
+        max-height: 800vh;
+        ;
     }
-    .section-b{
+
+    .section-b {
         height: 300vh;
     }
+
     .section-c {
         max-height: 250vh;
     }
@@ -490,18 +503,24 @@ footer{
     .section-d {
         height: 600vh;
     }
-    footer{
+
+    footer {
         height: 50%;
     }
 
 }
-@media only screen and (max-width: 1600px) and (orientation: portrait)  and (min-width: 760px){//for ipad
-    #nav{
+
+@media only screen and (max-width: 1600px) and (orientation: portrait) and (min-width: 760px) {
+
+    //for ipad
+    #nav {
         display: none;
     }
-    .section-b{
+
+    .section-b {
         max-height: 100vh;
     }
+
     .section-c {
         flex-direction: column;
         max-height: 60vh;
@@ -510,32 +529,40 @@ footer{
     .section-d {
         max-height: 100vh;
     }
+
     #intro {
         font-size: 6rem;
     }
 
 }
 
-@media only screen and (max-width: 1600px) and (orientation: landscape)  and (min-height: 760px){//for ipad
-    #nav{
+@media only screen and (max-width: 1600px) and (orientation: landscape) and (min-height: 760px) {
+
+    //for ipad
+    #nav {
         display: none;
     }
+
     #intro {
         font-size: 5rem;
     }
+
     #intro-subtext {
         font-size: 3.5rem;
     }
 
-    .center{
+    .center {
         width: 20%;
     }
-    .section-a{
+
+    .section-a {
         height: 100vh;
     }
-    .section-b{
+
+    .section-b {
         height: 70vh;
     }
+
     .section-c {
         flex-direction: column;
         max-height: 60vh;
@@ -544,37 +571,43 @@ footer{
     .section-d {
         height: 150vh;
     }
-    footer{
-        height:11%;
-    }  
+
+    footer {
+        height: 11%;
+    }
 }
-@media only screen and (max-width: 1600px) and (orientation: landscape)  and (max-height: 759px){
-    #nav{
+
+@media only screen and (max-width: 1600px) and (orientation: landscape) and (max-height: 759px) {
+    #nav {
         display: none;
     }
-    
+
     #intro {
         font-size: 5rem;
     }
+
     #intro-subtext {
         font-size: 3rem;
     }
 
-    body, html{
-        padding-top:0;
+    body,
+    html {
+        padding-top: 0;
     }
-    
-    .center{
+
+    .center {
         width: 20%;
     }
-    .section-a{
+
+    .section-a {
         height: 200vh;
         max-height: 100%;
     }
-    
-    .section-b{
+
+    .section-b {
         height: 150vh;
     }
+
     .section-c {
         height: 120vh;
     }
@@ -582,65 +615,67 @@ footer{
     .section-d {
         height: 200vh;
     }
-    footer{
-        height:15%;
-    }  
+
+    footer {
+        height: 15%;
+    }
 }
 
 @media only screen and (max-width: 950px) and (orientation: portrait) {
-    nav{
+    nav {
         display: none;
     }
- 
-     #intro {
-         font-size: 2.6rem;
-     }
- 
-     #intro-subtext {
-         font-size: 1.5rem;
-         text-overflow: wrap;
-     }
- 
-     .center {
-         width: 50%;
-         padding-top: 20%;
 
-     }
- 
-     .container {
-         flex-direction: column;
-     }
- 
-     .section-b {
-         height: 120vh;
-     }
- 
-     .section-c {
-         flex-direction: column;
-         height: 100vh;
- 
- 
-     }
- 
-     .section-d {
-         height: 150vh;
-     }
- 
-     .column-control {
-         flex-direction: column;
- 
-     }
- 
-     .centerimg {
-         padding: 20px;
-         width: 250px;
- 
- 
-     }
- 
- }
+    #intro {
+        font-size: 2.6rem;
+    }
+
+    #intro-subtext {
+        font-size: 1.5rem;
+        text-overflow: wrap;
+    }
+
+    .center {
+        width: 50%;
+        padding-top: 20%;
+
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .section-b {
+        height: 120vh;
+    }
+
+    .section-c {
+        flex-direction: column;
+        height: 100vh;
+
+
+    }
+
+    .section-d {
+        height: 150vh;
+    }
+
+    .column-control {
+        flex-direction: column;
+
+    }
+
+    .centerimg {
+        padding: 20px;
+        width: 250px;
+
+
+    }
+
+}
+
 @media only screen and (max-width: 775px) and (orientation: portrait) {
-   
+
     #intro {
         font-size: 2.6rem;
     }
@@ -676,298 +711,363 @@ footer{
 
 }
 
-    @media only screen and (max-width: 375px) and (orientation: portrait) {
-        #intro {
-            font-size: 2.4rem;
-        }
-        #intro-subtext {
-
-            font-size: 1.5rem;
-        }
-        
-        .content{
-            min-height: 0px;
-            padding-bottom: 0px;
-
-        }
-        .section-a {
-            height: 120vh;
-        }
-
-        .section-b {
-            height: 120vh;
-        }
-
-        .section-c {
-            height: 110vh;
-        }
-        .section-d {
-            height: 150vh;
-        }
-        
-    }
-    @media only screen and (max-width: 375px) and (max-height: 700px)and (orientation: portrait) {
-        
-        .section-d {
-            height: 200vh;
-        }
-        
+@media only screen and (max-width: 375px) and (orientation: portrait) {
+    #intro {
+        font-size: 2.4rem;
     }
 
+    #intro-subtext {
 
-    @media only screen and (max-width: 321px) and (orientation: portrait) {
-       html{
-          // position: relative;
-           min-width: 321px;
-       }
-        #intro{
-            font-size: 1rem;
-        }
-        #intro-subtext{
-            font-size: .5rem;
-            animation: none;
-            opacity: 1;
-        }
-        h2{
-            font-size: 1rem;
-        }
-        .center{
-            padding-top: 50%;
-        }
-        .content{
-            min-height: 0px;
-        }
-        .section-c{
-            height: 140vh;
-        }
-        .section-b{
-            height: 120vh;
-        }
-        .section-d{
-            height: 250vh;
-        } 
-        .centerimg{
-            display: none;
-        }
-        footer{
-            display: none;
-        }
+        font-size: 1.5rem;
     }
-   
-    @media only screen and (max-height: 400px) and (orientation: landscape) and (max-width: 670px){
-        #nav{
-            display: none;
-        }
-        #intro{
-            font-size: 2.6rem;
-        }
-        #intro-subtext{
-            font-size: 1.5rem;
-        }
-        .container {
-            flex-direction: column;
-            width: 60%;
-        }
-        .section-a{
-            max-height: 300vh;
-        }
-        .section-b{
-            height:250vh;
-        }
-        .section-c{
-            height: 250vh;
-            display: flex;
-            flex-direction: column;
 
-        }
-        .section-c h3 {
-            text-align: center;
-            max-width: 60ch;
-            word-wrap: break-word;
-        
-        
-        }
-        .column-control {
-            display: flex;
-            flex-direction: column;
-        }
-       
-        .section-d{
-            height: 310vh;
-        } 
-        footer{
-            height:20%;
-        }  
+    .content {
+        min-height: 0px;
+        padding-bottom: 0px;
+
     }
-    @media only screen and (max-height: 600px) and (min-height:401px) and (orientation: landscape) and (max-width: 900px){
-        nav{
-            display: none;
-        }
-        #intro{
-            font-size: 2.6rem;
-        }
-        #intro-subtext{
-            font-size: 1.5rem;
-        }
-        .container {
-            flex-direction: column;
-            width: 50%;
-        }
-        .section-a{
-            max-height: 300vh;
-        }
-        .section-b{
-            height:200vh;
-        }
-        .section-c{
-            height: 200vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .column-control {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-        .section-d{
-            height: 310vh;
-        }
-        footer{
-            height:20%;
-        }  
+
+    .section-a {
+        height: 120vh;
     }
-    @media only screen and (max-height: 400px) and (min-width:600px) and (orientation: landscape) and (max-width: 900px){
-        nav{
-            display: none;
-        }
-        #intro{
-            font-size: 2.6rem;
-        }
-        #intro-subtext{
-            font-size: 1.5rem;
-        }
-        .container {
-            flex-direction: column;
-            width: 50%;
-        }
-        .section-a{
-            max-height: 300vh;
-        }
-        .section-b{
-            height:200vh;
-        }
-        .section-c{
-            height: 200vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .column-control {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-        .section-d{
-            height: 280vh;
-        }
-        footer{
-            height:20%;
-        }  
+
+    .section-b {
+        height: 120vh;
     }
-    @media only screen and (max-height: 600px) and (min-width:600px) and (orientation: landscape) and (max-width: 900px){
-        nav{
-            display: none;
-        }
-        #intro{
-            font-size: 4rem;
-        }
-        #intro-subtext{
-            font-size: 2.5rem;
-        }
-        .container {
-            flex-direction: column;
-            width: 50%;
-        }
-        .section-a{
-            max-height: 300vh;
-        }
-        .section-b{
-            height:200vh;
-        }
-        .section-c{
-            height: 180vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .column-control {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-        .section-d{
-            height: 250vh;
-        }
-        footer{
-            height:20%;
-        }  
+
+    .section-c {
+        height: 110vh;
     }
-    @media only screen and (max-height: 400px) and (min-width:600px) and (orientation: landscape) and (max-width: 900px){
-        nav{
-            display: none;
-        }
-        #intro{
-            font-size: 4rem;
-        }
-        #intro-subtext{
-            font-size: 2.5rem;
-        }
-        .container {
-            flex-direction: column;
-            width: 50%;
-        }
-        .section-a{
-            max-height: 300vh;
-        }
-        .section-b{
-            height:220vh;
-        }
-        .section-c{
-            height: 250vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .column-control {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-        }
-        .section-d{
-            height: 280vh;
-        }
-        footer{
-            height:20%;
-        }  
-    }  
-    @media only screen and (orientation: portrait) and (max-width: 382px) and (max-height:700px){
-    html{
+
+    .section-d {
+        height: 150vh;
+    }
+
+}
+
+@media only screen and (max-width: 375px) and (max-height: 700px)and (orientation: portrait) {
+
+    .section-d {
+        height: 200vh;
+    }
+
+}
+
+
+@media only screen and (max-width: 321px) and (orientation: portrait) {
+    html {
+        min-width: 321px;
+    }
+
+    #intro {
+        font-size: 1rem;
+    }
+
+    #intro-subtext {
+        font-size: .5rem;
+        animation: none;
+        opacity: 1;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .center {
+        padding-top: 50%;
+    }
+
+    .content {
+        min-height: 0px;
+    }
+
+    .section-c {
+        height: 140vh;
+    }
+
+    .section-b {
+        height: 120vh;
+    }
+
+    .section-d {
+        height: 250vh;
+    }
+
+    .centerimg {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 400px) and (orientation: landscape) and (max-width: 670px) {
+    #nav {
+        display: none;
+    }
+
+    #intro {
+        font-size: 2.6rem;
+    }
+
+    #intro-subtext {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .section-a {
+        max-height: 300vh;
+    }
+
+    .section-b {
+        height: 250vh;
+    }
+
+    .section-c {
+        height: 250vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .section-c h3 {
+        text-align: center;
+        max-width: 60ch;
+        word-wrap: break-word;
+
+
+    }
+
+    .column-control {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-d {
+        height: 310vh;
+    }
+
+    footer {
+        height: 20%;
+    }
+}
+
+@media only screen and (max-height: 600px) and (min-height:401px) and (orientation: landscape) and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    #intro {
+        font-size: 2.6rem;
+    }
+
+    #intro-subtext {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .section-a {
+        max-height: 300vh;
+    }
+
+    .section-b {
+        height: 200vh;
+    }
+
+    .section-c {
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-control {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-d {
+        height: 310vh;
+    }
+
+    footer {
+        height: 20%;
+    }
+}
+
+@media only screen and (max-height: 400px) and (min-width:600px) and (orientation: landscape) and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    #intro {
+        font-size: 2.6rem;
+    }
+
+    #intro-subtext {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .section-a {
+        max-height: 300vh;
+    }
+
+    .section-b {
+        height: 200vh;
+    }
+
+    .section-c {
+        height: 200vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-control {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-d {
+        height: 280vh;
+    }
+
+    footer {
+        height: 20%;
+    }
+}
+
+@media only screen and (max-height: 600px) and (min-width:600px) and (orientation: landscape) and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    #intro {
+        font-size: 4rem;
+    }
+
+    #intro-subtext {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .section-a {
+        max-height: 300vh;
+    }
+
+    .section-b {
+        height: 200vh;
+    }
+
+    .section-c {
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-control {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-d {
+        height: 250vh;
+    }
+
+    footer {
+        height: 20%;
+    }
+}
+
+@media only screen and (max-height: 400px) and (min-width:600px) and (orientation: landscape) and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    #intro {
+        font-size: 4rem;
+    }
+
+    #intro-subtext {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .section-a {
+        max-height: 300vh;
+    }
+
+    .section-b {
+        height: 220vh;
+    }
+
+    .section-c {
+        height: 250vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-control {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-d {
+        height: 280vh;
+    }
+
+    footer {
+        height: 20%;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 382px) and (max-height:700px) {
+    html {
         min-height: 200px;
     }
-        .section-a{
-            max-height: 200vh;
-        }
-        .section-b{
-            height:170vh;
-        }
-        .section-c{
-            height: 160vh;
 
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .section-d{
-            //height: 4000vh;
-           // max-height: 400vh;
-        }
-    
+    .section-a {
+        max-height: 200vh;
     }
 
+    .section-b {
+        height: 170vh;
+    }
+
+    .section-c {
+        height: 160vh;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-d {
+        //height: 400vh;
+        // max-height: 400vh;
+    }
+
+}
