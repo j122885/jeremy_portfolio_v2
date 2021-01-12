@@ -406,44 +406,45 @@ ul {
 footer {
     // display: none;
     text-align: center;
-    height: 10%;
+    height: 8%;
     padding: 1%;
     background-color: #1D48C0;
 }
 
 
-@media only screen and (min-width: 500px) and (max-height: 776px) and (min-height: 200px) and (orientation: landscape) {
+// @media only screen and (min-width: 760px)and (max-width: 880px) and (max-height: 900px) and (min-height: 859px) and (orientation: portrait) {
 
-    //for lg wing
-    #nav {
-        display: none;
-    }
+//     //for lg wing
+//     #nav {
+//         display: none;
+//     }
 
-    body {
-        padding-top: 0;
-    }
+    
 
-    .section-a {
-        height: 150vh;
-        max-height: 150vh;
-    }
+//     .section-a {
+//         height: 100vh;
+//         //max-height: 150vh;
+//     }
 
-    .section-b {
-        height: 120vh;
-    }
+//     .section-b {
+//         height: 120vh;
+//     }
 
-    .section-c {
-        height: 150vh;
-    }
+//     .section-c {
+//        height: 180vh;
+//                 max-height: 8850vh;
 
-    .section-d {
-        height: 260vh;
-    }
+//     }
 
-    footer {
-        height: 20%;
-    }
-}
+//     .section-d {
+        
+//         height: 90000vh;
+//         //max-height: 90000vh;
+
+//     }
+   
+    
+// }
 
 @media only screen and (min-width: 1600px) and (max-height: 800px) and (orientation: landscape) {
     .section-a {
@@ -489,7 +490,7 @@ footer {
     .section-a {
         height: 500vh;
         max-height: 800vh;
-        ;
+        
     }
 
     .section-b {
@@ -504,9 +505,7 @@ footer {
         height: 600vh;
     }
 
-    footer {
-        height: 50%;
-    }
+     
 
 }
 
@@ -518,16 +517,16 @@ footer {
     }
 
     .section-b {
-        max-height: 100vh;
+        max-height: 120vh;
     }
 
     .section-c {
         flex-direction: column;
-        max-height: 60vh;
+        max-height: 100vh;
     }
 
     .section-d {
-        max-height: 100vh;
+        max-height: 120vh;
     }
 
     #intro {
@@ -572,9 +571,7 @@ footer {
         height: 150vh;
     }
 
-    footer {
-        height: 11%;
-    }
+   
 }
 
 @media only screen and (max-width: 1600px) and (orientation: landscape) and (max-height: 759px) {
@@ -613,12 +610,10 @@ footer {
     }
 
     .section-d {
-        height: 200vh;
+        height: 230vh;
     }
 
-    footer {
-        height: 15%;
-    }
+    
 }
 
 @media only screen and (max-width: 950px) and (orientation: portrait) {
@@ -849,14 +844,59 @@ footer {
     }
 
     .section-d {
-        height: 310vh;
+        height: 350vh;
     }
 
-    footer {
-        height: 20%;
-    }
+   
 }
+@media only screen and (max-height: 340px) and (orientation: landscape) and (max-width: 1600px) {
+   
+    .section-a{
+        height: 500vh;
+    }
+    .section-b {
+        height: 350vh;
+    }
 
+    .section-c {
+        height: 350vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+   
+    .section-d {
+        height: 750vh;
+    }
+    footer {
+       min-height: 30%;
+    }
+
+}
+@media only screen and (max-height: 340px) and (orientation: landscape) and (max-width: 1600px) {
+   
+    .section-a{
+        height: 500vh;
+    }
+    .section-b {
+        height: 950vh;
+    }
+
+    .section-c {
+        height: 350vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+   
+    .section-d {
+        height: 950vh;
+    }
+    footer {
+       min-height: 30%;
+    }
+
+}
 @media only screen and (max-height: 600px) and (min-height:401px) and (orientation: landscape) and (max-width: 900px) {
     nav {
         display: none;
@@ -899,9 +939,7 @@ footer {
         height: 310vh;
     }
 
-    footer {
-        height: 20%;
-    }
+    
 }
 
 @media only screen and (max-height: 400px) and (min-width:600px) and (orientation: landscape) and (max-width: 900px) {
@@ -946,9 +984,7 @@ footer {
         height: 280vh;
     }
 
-    footer {
-        height: 20%;
-    }
+    
 }
 
 @media only screen and (max-height: 600px) and (min-width:600px) and (orientation: landscape) and (max-width: 900px) {
@@ -993,9 +1029,7 @@ footer {
         height: 250vh;
     }
 
-    footer {
-        height: 20%;
-    }
+   
 }
 
 @media only screen and (max-height: 400px) and (min-width:600px) and (orientation: landscape) and (max-width: 900px) {
@@ -1040,9 +1074,7 @@ footer {
         height: 280vh;
     }
 
-    footer {
-        height: 20%;
-    }
+   
 }
 
 @media only screen and (orientation: portrait) and (max-width: 382px) and (max-height:700px) {
