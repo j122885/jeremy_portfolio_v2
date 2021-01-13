@@ -185,7 +185,7 @@ h1 {
     //animation snipet start
     white-space: nowrap;
     overflow: hidden;
-    animation: introtyping 1.2s steps(15) forwards, introblink 1s 1.9;
+    animation: introtyping 1.5s steps(15) forwards, introblink 1s 1.9;
     //animation snipet end
 }
 
@@ -194,8 +194,8 @@ h1 {
     //animation snipet start
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 1s steps(31) forwards, blink 1s 2;
-    animation-delay: 1.4s;
+    animation: typing 2s steps(31) forwards, blink 1s 2.5;
+    animation-delay: 2s;
     //animation snipet end
 }
 
@@ -204,8 +204,8 @@ h1 {
     //animation snipet start
     white-space: nowrap;
     overflow: hidden;
-    animation: typing2 1s steps(18) forwards, blink2 1s infinite;
-    animation-delay: 2.4s;
+    animation: typing2 1.5s steps(18) forwards, blink2 1s infinite;
+    animation-delay: 4.4s;
     //animation snipet end
 }
 

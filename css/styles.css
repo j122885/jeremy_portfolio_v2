@@ -231,28 +231,28 @@ h1 {
 .intro-animation {
   white-space: nowrap;
   overflow: hidden;
-  -webkit-animation: introtyping 1.2s steps(15) forwards, introblink 1s 1.9;
-          animation: introtyping 1.2s steps(15) forwards, introblink 1s 1.9;
+  -webkit-animation: introtyping 1.5s steps(15) forwards, introblink 1s 1.9;
+          animation: introtyping 1.5s steps(15) forwards, introblink 1s 1.9;
 }
 
 .first-animation {
   opacity: 0;
   white-space: nowrap;
   overflow: hidden;
-  -webkit-animation: typing 1s steps(31) forwards, blink 1s 2;
-          animation: typing 1s steps(31) forwards, blink 1s 2;
-  -webkit-animation-delay: 1.4s;
-          animation-delay: 1.4s;
+  -webkit-animation: typing 2s steps(31) forwards, blink 1s 2.5;
+          animation: typing 2s steps(31) forwards, blink 1s 2.5;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 .second-animation {
   opacity: 0;
   white-space: nowrap;
   overflow: hidden;
-  -webkit-animation: typing2 1s steps(18) forwards, blink2 1s infinite;
-          animation: typing2 1s steps(18) forwards, blink2 1s infinite;
-  -webkit-animation-delay: 2.4s;
-          animation-delay: 2.4s;
+  -webkit-animation: typing2 1.5s steps(18) forwards, blink2 1s infinite;
+          animation: typing2 1.5s steps(18) forwards, blink2 1s infinite;
+  -webkit-animation-delay: 4.4s;
+          animation-delay: 4.4s;
 }
 
 .center {
