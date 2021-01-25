@@ -644,7 +644,7 @@ footer {
     }
 
     #intro {
-        padding-top: 20%;
+        margin-top: 20%;
         font-size: 2rem;
     }
 
@@ -669,10 +669,7 @@ footer {
         display: none;
     }
 
-    .navbar {
-        display: none;
-    }
-
+    
 }
 
 @media only screen and (max-height: 400px) and (orientation: landscape) and (max-width: 670px) {

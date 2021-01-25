@@ -672,7 +672,7 @@ footer {
     min-width: 321px;
   }
   #intro {
-    padding-top: 20%;
+    margin-top: 20%;
     font-size: 2rem;
   }
   #intro-subtext {
@@ -688,9 +688,6 @@ footer {
     min-height: 0px;
   }
   .centerimg {
-    display: none;
-  }
-  .navbar {
     display: none;
   }
 }
