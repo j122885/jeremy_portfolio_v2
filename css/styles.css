@@ -308,7 +308,7 @@ h1 {
 .section-b {
   padding-top: 2%;
   padding-bottom: 2%;
-  min-height: 60vh;
+  min-height: 50vh;
   background-color: #F1F1F1;
 }
 
@@ -316,6 +316,10 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 figure {
@@ -415,7 +419,7 @@ p {
   padding-top: 2%;
   padding-bottom: 2%;
   background-color: #fff;
-  min-height: 60vh;
+  min-height: 50vh;
 }
 
 .section-d {
