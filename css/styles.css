@@ -412,6 +412,10 @@ p {
   margin-right: auto;
 }
 
+#contactImages {
+  color: white;
+}
+
 .section-c {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -473,6 +477,7 @@ footer {
   min-height: 3%;
   padding: 1%;
   background-color: #1D48C0;
+  color: white;
 }
 
 body.dark-theme nav,
@@ -489,8 +494,7 @@ body.dark-theme .section-d {
 
 body.dark-theme h2,
 body.dark-theme p,
-body.dark-theme li,
-body.dark-theme footer {
+body.dark-theme li {
   color: #fff;
 }
 
@@ -512,6 +516,11 @@ body.dark-theme .navbar-nav {
 
 body.dark-theme #intro {
   margin-top: auto !important;
+}
+
+body.dark-theme .centerImg {
+  -webkit-filter: drop-shadow(2px 2px 3px white);
+          filter: drop-shadow(2px 2px 3px white);
 }
 
 @media only screen and (max-width: 1600px) and (orientation: portrait) and (min-width: 760px) {
